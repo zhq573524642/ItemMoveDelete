@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <zhq.com.itemmovedelete.ItemMoveDeleteLayout
+        android:id="@+id/itemMoveDeleteLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/layout_content"/>
+        <include layout="@layout/layout_delete"/>
+    </zhq.com.itemmovedelete.ItemMoveDeleteLayout>
+</LinearLayout>
